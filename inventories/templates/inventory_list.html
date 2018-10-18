@@ -1,0 +1,17 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Inventory List</title>
+</head>
+<body>
+	{% for item in inventory %}
+		<h1>{{item.name}}</h1>
+		<h2>{{item.store}}</h2>
+		<h2>{{item.is_empty}}</h2>
+		<h3>{{item.last_updated}}</h3>mana
+		
+	{% endfor %}
+		}
+	
+</body>
+</html>
